@@ -2,14 +2,18 @@
 
 This is a Simple Flask Service as Docker Services example
 
-### Run
-```console
+### Create docker image
+```
 cd docker_simple_flask_app
 docker build -t flask-sample-docker:latest .
+```
+
+### Run
+```console
 docker run -d -p 5000:5000 flask-sample-docker
 ```
 
-### Access resource
+### Access service resource
 ```
 http://localhost:5000/api/v0/machine
 ```
