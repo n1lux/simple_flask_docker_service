@@ -9,6 +9,11 @@ docker build -t flask-sample-docker:latest .
 docker run -d -p 5000:5000 flask-sample-docker
 ```
 
+### Access resource
+```
+http://localhost:5000/api/v0/machine
+```
+
 ### Check container is running
 ```console
 docker ps
