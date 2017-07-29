@@ -1,16 +1,20 @@
-### Docker Simple Flask Service
+## Docker Simple Flask Service
 
 This is a Simple Flask Service as Docker Services example
 
-## Run
+### Run
 ```console
 cd docker_simple_flask_app
 docker build -t flask-sample-docker:latest .
 docker run -d -p 5000:5000 flask-sample-docker
 ```
 
-##Check if running
+### Check container is running
 ```console
 docker ps
 ```
 
+### Stop container
+```console
+docker stop <container>
+```
